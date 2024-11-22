@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 140px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    height: 140px;
+    
+}
+
+header h3 {
+    font-size:1.6rem;
+    font-weight: 500;
+}
+
+.hero {
+    padding: 40px;
+    background: #d1e8df;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+
+}
+.col {
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    width: 100vw;
+    padding: 40px;
+}
+.title h1 {
+    font-size: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Fira Sans;
+    color: #09344c;    
+}
+h2 {
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: Fira Sans;
+    color: #09344c;
+}
+h6 {
+    font-family: Fira Sans;
+    font-size: 2rem;
+    text-align: center;
+    color: #09344c;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+p {
+    font-family: Fira Sans;
+    color: #09344c;  
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+.number {
+    font-family: Fira Sans;
+    color: #09344c;  
+    font-size: 2rem;
+    background: #d1e8df;
+    text-align: center;
+    resize: none;
+    border: none;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 66px;
+    padding: 10px;
+    border:1px solid #09344c;
+    border-radius:50% ;
+    color: #09344c;
+    background-color: #d1e8df;
+    box-shadow: 2px 2px 4px #09354c8e;
+}
+.copy:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 2px #09354c8e;
+    transform: translateY(2px);
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyeux anniversaire !!!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="https://espacetivoli.jimdofree.com/soins-et-th%C3%A9rapies/massages-de-relaxation-et-chi-nei-tsang/">
+    <header>
+        <div class="logo">
+        <img src="Images/image.png" alt="">
+        <div class="heading">
+            <h3>Arkane Relaxation </h3><i><span>Massages bien-être</span></i>
+        </div>
+    </div>
+    </header>
+</a>
+    <main>
+        <div class="hero">
+            <img src="Images/massage.png" alt="">
+        </div>
+        <div class="title">
+        <h1>Bon </h1>
+        <h2>pour un massage</h2>
+        </div>
+        <div class="hero col">
+            <img src="Images/audrey.png" alt="">
+            <h6>Audrey Marcès</h6>
+            <p>Massages de relaxation</p>
+            <textarea type="text" class="number" readonly>06.56.86.61.63</textarea>
+            <div class="copy" style='font-size:2rem;' onclick="copyNumber()">&#128222;</div>
+        </div>
+    </main>
+<script>
+    function copyNumber() {
+    var copyText = document.querySelector(".number");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); 
+    navigator.clipboard.writeText(copyText.value);
+    document.execCommand("Copy");
+    alert("Le code est copié dans le presse papier");   
+    } 
+</script>
+</body>
+</html>
